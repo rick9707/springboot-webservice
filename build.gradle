@@ -31,6 +31,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     ext['hibernate.version'] = '5.4.2.Final'
+    implementation 'pl.allegro.tech.boot:handlebars-spring-boot-starter:0.3.4'
 }
 
 tasks.named('test') {
